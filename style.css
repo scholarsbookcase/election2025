@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1400px;
+    
+}
+
+html {
+    font-size: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Light grey border */
+}
+
+th {
+    background-color: #f9f9f9; /* Very light grey */
+}
+
+tr:hover {
+    background-color: #f2f2f2; /* Light grey */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Very light grey, for zebra striping */
+}
+
+.small-font-table {
+    font-size: 14px; /* Or any other size */
+}
